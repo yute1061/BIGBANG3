@@ -30,7 +30,7 @@
     
     <p>定期的に練習会は行っていますが、参加の強制や活動ノルマは一切なし。</p>
     <p>近年では県内や近隣のレースで入賞・優勝の機会も増えてきましたが、あくまでメンバー各々の努力の成果です。<br>ほんとに。</p>
-    <img width="800" height="533" src="{{ secure_asset('images/LINE_ALBUM_240223_21.jpg/') }}"><br>
+    <img width="800" height="533" src="{{ secure_asset('images/V2Yo1po68cCM4KY1720440438_1720440489.jpg/') }}"><br>
     
     <p>今より速く走れるようになりたい・・・一緒に走る仲間が欲しい・・・どんなきっかけでも構いません</p>
     <p>是非私たちと一緒に走りませんか？</p><br>
@@ -39,6 +39,6 @@
         <a style="color: #0000ff; font-size: x-large;" href="https://www.facebook.com/teambigbangkumamoto/?locale=ja_JP">facebook</a><br>
         <a style="color: #0000ff; font-size: x-large;" href="https://www.instagram.com/team_bigbang_imp/" target="_blank">instagram</a>
     </p>    
-    <img width="800" height="533" src="{{ secure_asset('images/LINE_ALBUM_240222_94.jpg/') }}">
+    <img width="800" height="533" src="{{ secure_asset('images/kblDtCmTZFV5y061720440273_1720440321.jpg/') }}">
 </main>
 @endsection
