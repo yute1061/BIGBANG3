@@ -20,12 +20,11 @@
         
         <!-- Styles -->
         {{-- Laravel標準で用意されているCSSを読み込みます --}}
-        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+        <!-- <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet"> -->
         {{-- 固有のCSSを読み込みます --}}
         <link href="{{ secure_asset('css/front.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/toppage.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/page.css') }}" rel="stylesheet">
-        
     </head>
     <body>
         <div class="area">
@@ -93,14 +92,14 @@
                         </div>
                         <div>
                             <div class="name">テズカ</div>
-                            <div style="margin-right: 48px;">
+                            <div style="margin-right: 65px; padding-top: 5px;">
                                 <a class="profile_sns" href="https://twitter.com/silencetezuka?ref_src=twsrc%5Etfw" target="_blank">
                                     <img src="{{ secure_asset('images/twitter_x_new_logo_x_rounded_icon_256078.png') }}">
                                 </a>                                                                                    
                             </div> 
                         </div>
                         <div class="meta">
-                            <p style="text-align: left;">2019年よりTEAM BIGBANGに所属<br>一応ロードバイク歴10年。最近はレースよりブルベに夢中...ヒルクライムとエンデューロには出ます。目下の目標はSR取得で、2027年のPBP出場を目指してます（出るとは言ってない）</p>
+                            <p style="text-align: left;">2019年よりTEAM BIGBANGに所属<br>一応ロードバイク歴10年。最近はレースよりブルベに夢中...ヒルクライムとエンデューロには出ます。目下の目標はSR取得で、2027年のPBP出場を目指してます。</p>
                             <p style="text-align: left;">愛車はチームメイトに塗装してもらったSTORCK Fascenario.3 comp<br>マイナーなブランドやアイテムを使いたがる癖あり</p>
                         </div>
                     </div>
