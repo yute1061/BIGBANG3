@@ -16,12 +16,6 @@
     	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->thumbnail_path) }}" class="img-review">
 	        @endif
         </div>
-        <div class="date-tags">
-            <span class="post-date">
-                <span class="fa fa-clock-o" aria-hidden="true"></span>
-                <time class="entry-date date published updated">{{ $article->created_at }}</time>
-            </span>
-        </div>
     </div>
     <div class="entry-content cf" itemprop="mainEntityOfPage">
         @if ($article->body1)
@@ -30,36 +24,44 @@
                 echo $text1;
             ?>
         @endif
-	    @if ($article->image_path1)
+        <br>
+	@if ($article->image_path1)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body2)
             <?php
                 $text2 = nl2br( $article->body2 );
                 echo $text2;
             ?>
         @endif
+        <br>
         @if ($article->image_path2)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path2) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body3)
 	        <?php
                 $text3 = nl2br( $article->body3 );
                 echo $text3;
             ?>
         @endif
+        <br>
         @if ($article->image_path3)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path3) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body4)
 	        <?php
                 $text4 = nl2br( $article->body4 );
                 echo $text4;
             ?>
         @endif
+        <br>
         @if ($article->image_path4)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path4) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body5)
 	        <?php
                 $text5 = nl2br( $article->body5 );
@@ -78,39 +80,47 @@
         @if ($article->image_path6)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path6) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body7)
             <?php
                 $text7 = nl2br( $article->body7 );
                 echo $text7;
             ?>
         @endif
+        <br>
         @if ($article->image_path7)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path7) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body8)
 	        <?php
                 $text8 = nl2br( $article->body8 );
                 echo $text8;
             ?>
         @endif
+        <br>
         @if ($article->image_path8)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path8) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body9)
 	        <?php
                 $text9 = nl2br( $article->body9 );
                 echo $text9;
             ?>
         @endif
+        <br>
         @if ($article->image_path9)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path9) }}" class="img-review">
         @endif
+        <br>
         @if ($article->body10)
             <?php
                 $text2 = nl2br( $article->body10 );
                 echo $text10;
             ?>
         @endif
+        <br>
         @if ($article->image_path10)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path10) }}" class="img-review">
         @endif

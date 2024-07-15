@@ -4,7 +4,7 @@
 
 @section('main')
 <main id="main" class="main" itemscope="" itemtype="https://schema.org/Blog" style="height: auto !important;">
-	<?php $count = 0; ?>
+        <?php $count = 0; ?>
 	<?php $article_start = $page * 10 - 9; ?>
 	<?php $article_end = $page * 10; ?>
 	@foreach ($posts as $post)
