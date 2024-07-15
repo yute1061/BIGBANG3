@@ -25,7 +25,7 @@
             ?>
         @endif
         <br>
-	@if ($article->image_path1)
+	    @if ($article->image_path1)
 	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img-review">
         @endif
         <br>
