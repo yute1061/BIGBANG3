@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+        <!-- レスポンシブデザイン（スマホ等の画面サイズに合わせられる）にする -->
         <meta charset="uth-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,17 +30,13 @@
     <body>
         <div class="area">
             <header class="header">
-                <a class="title" href="{{ route('toppage') }}" style="font-weight: bold;">                     
+                <a href="{{ route('toppage') }}" style="font-weight: bold;">                     
                     <div>
                         <div{{--style="float: left;"--}} {{--text-align: center;--}}>
-                            <img style="width: 60%;" src="{{ secure_asset('images/team_name.jpg/') }}">
-                            {{--
-                            <div><span style="font-size: 50px;">T&nbsp;E&nbsp;A&nbsp;M</span>&emsp;&emsp;<span style="font-size: 70px;">B&nbsp;I&nbsp;G&nbsp;B&nbsp;A&nbsp;N&nbsp;G</span></div>
-                            <div style="margin-top: -20px;"><span style="font-size: 30px;">Roadrace&nbsp;Team&nbsp;in&nbsp;Kumamoto</span></div>
-                            --}}
-                            <img class="logo_2" style="margin-left: 130px; width: 80px; margin-top: 100px;" src="{{ secure_asset('images/935503.jpeg/') }}">
-                            <img class="logo_2" style="width: 110px; margin-top: 70px;" src="{{ secure_asset('images/935503.jpeg/') }}">
-                            <img class="logo_2" style="width: 140px; margin-top: 40px;" src="{{ secure_asset('images/935503.jpeg/') }}">
+                            <img class="team_name" src="{{ secure_asset('images/team_name.jpg/') }}">
+                            <img class="syarin1" src="{{ secure_asset('images/935503.jpeg/') }}">
+                            <img class="syarin2" src="{{ secure_asset('images/935503.jpeg/') }}">
+                            <img class="syarin3" src="{{ secure_asset('images/935503.jpeg/') }}">
                         </div>
                     </div>
                 </a>
@@ -55,7 +52,7 @@
             <div class="c">
                 @yield('main')
                 <aside class="side">
-                    <div>
+                    <div class="side_team_logo">
                         <img width="100%" src="{{ secure_asset('images/Screen_BIGBANG_2700×2700-min.png/') }}">
                     </div>
                     <div class="widgettitle">記事検索</div>
@@ -63,7 +60,7 @@
                       	<input type="text" size="25" placeholder="タイトルor本文から検索" name="search" value="{{ old('search') }}">
                       	<input type="hidden" name="mode" value=1><!--検索したときはtoppage表示のモードを変える-->
                       	<button type="submit">
-                                  {{ __('検索') }}
+                            {{ __('検索') }}
                         </button>
                     </form>
                     
@@ -92,8 +89,8 @@
                         </div>
                         <div>
                             <div class="name">テズカ</div>
-                            <div style="margin-right: 65px; padding-top: 5px;">
-                                <a class="profile_sns" href="https://twitter.com/silencetezuka?ref_src=twsrc%5Etfw" target="_blank">
+                            <div class="profile_sns">
+                                <a class="X_button" href="https://twitter.com/silencetezuka?ref_src=twsrc%5Etfw" target="_blank">
                                     <img src="{{ secure_asset('images/twitter_x_new_logo_x_rounded_icon_256078.png') }}">
                                 </a>                                                                                    
                             </div> 

@@ -21,9 +21,11 @@
 							@endif
 						</div>
 						<!-- <div class="entry-card-content card-content e-card-content"> -->
-						<div>
+						<div class="entry-card">
 							<!-- <h2 class="entry-card-title card-title e-card-title" itemprop="headline">{{ $post->title }}</h2> -->
-							<span class="entry-card-title">{{ $post->title }}</span>
+							<div class="entry-card-title">
+								<span>{{ $post->title }}</span>
+							</div>
 							<!-- <div class="entry-card-snippet card-snippet e-card-snippet"> -->
 							<div class="entry-card-snippet">
 								<span>{{ $post->body1 }}</span>
