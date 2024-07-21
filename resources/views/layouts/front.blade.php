@@ -24,7 +24,9 @@
         <!-- <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet"> -->
         {{-- 固有のCSSを読み込みます --}}
         <link href="{{ secure_asset('css/front.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/front_width_max480.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/toppage.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/toppage_width_max480.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/page.css') }}" rel="stylesheet">
     </head>
     <body>
@@ -44,6 +46,18 @@
                     <ul class="b">
                         <li><a href="{{ route('toppage') }}">HOME</a></li>
                         <li><a href="{{ route('about') }}">BIGBANGについて</a></li>
+                        <li><a href="{{ route('toppage', ['tag' => "レースレポ", 'mode' => 2]) }}">レースレポ</a></li>
+                        <li><a href="{{ route('schedule') }}">レース日程</a></li>
+                    </ul>
+                </nav>
+                <nav class="h-nav_width_max480">
+                    <ul class="b">
+                        <li><a href="{{ route('toppage') }}">HOME</a></li>
+                        <li><a href="{{ route('about') }}">BIGBANGについて</a></li>
+                    </ul>
+                </nav>
+                <nav class="h-nav_width_max480">
+                    <ul class="b">
                         <li><a href="{{ route('toppage', ['tag' => "レースレポ", 'mode' => 2]) }}">レースレポ</a></li>
                         <li><a href="{{ route('schedule') }}">レース日程</a></li>
                     </ul>

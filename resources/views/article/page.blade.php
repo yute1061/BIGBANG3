@@ -9,13 +9,8 @@
         <a> > </a>
         <a>{{ $article->title }}</a>
     </div>
-    <div class="article_wrap">
+    <div style="margin-top: 10px;">
         <h1 class="article_title">{{ $article->title }}</h1>
-        <div class="article_thumbnail">
-            @if ($article->thumbnail_path)
-    	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->thumbnail_path) }}" class="img-review">
-	        @endif
-        </div>
     </div>
     <div class="entry-content cf" itemprop="mainEntityOfPage">
         @if ($article->body1)
@@ -26,7 +21,7 @@
         <br>
         @endif
 	    @if ($article->image_path1)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img_page">
         <br>
         @endif
         @if ($article->body2)
@@ -37,7 +32,7 @@
         <br>
         @endif
         @if ($article->image_path2)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path2) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path2) }}" class="img_page">
         <br>
         @endif
         @if ($article->body3)
@@ -48,7 +43,7 @@
         <br>
         @endif
         @if ($article->image_path3)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path3) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path3) }}" class="img_page">
         @endif
         <br>
         @if ($article->body4)
@@ -59,7 +54,7 @@
         <br>
         @endif
         @if ($article->image_path4)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path4) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path4) }}" class="img_page">
         <br>
         @endif
         @if ($article->body5)
@@ -70,7 +65,7 @@
         <br>
         @endif
         @if ($article->image_path5)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path5) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path5) }}" class="img_page">
         <br>
         @endif
         @if ($article->body6)
@@ -81,7 +76,7 @@
         <br>
         @endif
         @if ($article->image_path6)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path6) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path6) }}" class="img_page">
         <br>
         @endif
         @if ($article->body7)
@@ -92,7 +87,7 @@
         <br>
         @endif
         @if ($article->image_path7)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path7) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path7) }}" class="img_page">
         <br>
         @endif
         @if ($article->body8)
@@ -103,7 +98,7 @@
         <br>
         @endif
         @if ($article->image_path8)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path8) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path8) }}" class="img_page">
         <br>
         @endif
         @if ($article->body9)
@@ -114,7 +109,7 @@
         @endif
         <br>
         @if ($article->image_path9)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path9) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path9) }}" class="img_page">
         <br>
         @endif
         @if ($article->body10)
@@ -125,7 +120,7 @@
         <br>
         @endif
         @if ($article->image_path10)
-	        <img width="800" height="533" src="{{ secure_asset('storage/image/' . $article->image_path10) }}" class="img-review">
+	        <img src="{{ secure_asset('storage/image/' . $article->image_path10) }}" class="img_page">
         <br>
         @endif
     </div>

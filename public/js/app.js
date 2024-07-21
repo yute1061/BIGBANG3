@@ -988,6 +988,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./resources/sass/page.scss":
+/*!**********************************!*\
+  !*** ./resources/sass/page.scss ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9wYWdlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvcGFnZS5zY3NzP2IyZjEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/page.scss\n");
+
+/***/ }),
+
 /***/ "./resources/sass/toppage.scss":
 /*!*************************************!*\
   !*** ./resources/sass/toppage.scss ***!
@@ -995,18 +1006,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy90b3BwYWdlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvdG9wcGFnZS5zY3NzPzVhODYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/toppage.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy90b3BwYWdlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvdG9wcGFnZS5zY3NzPzU1ZmEiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/toppage.scss\n");
 
 /***/ }),
 
-/***/ "./resources/sass/front_cycletv.scss":
-/*!*******************************************!*\
-  !*** ./resources/sass/front_cycletv.scss ***!
-  \*******************************************/
+/***/ "./resources/sass/toppage_width_max480.scss":
+/*!**************************************************!*\
+  !*** ./resources/sass/toppage_width_max480.scss ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9mcm9udF9jeWNsZXR2LnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvZnJvbnRfY3ljbGV0di5zY3NzP2IzZTkiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/front_cycletv.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy90b3BwYWdlX3dpZHRoX21heDQ4MC5zY3NzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9zYXNzL3RvcHBhZ2Vfd2lkdGhfbWF4NDgwLnNjc3M/MzhmMCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/sass/toppage_width_max480.scss\n");
 
 /***/ }),
 
@@ -1054,14 +1065,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./resources/sass/page.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/page.scss ***!
-  \**********************************/
+/***/ "./resources/sass/front_width_max480.scss":
+/*!************************************************!*\
+  !*** ./resources/sass/front_width_max480.scss ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9wYWdlLnNjc3MiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL3Nhc3MvcGFnZS5zY3NzPzUzNjkiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/sass/page.scss\n");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9mcm9udF93aWR0aF9tYXg0ODAuc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9mcm9udF93aWR0aF9tYXg0ODAuc2Nzcz9lNjIxIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/front_width_max480.scss\n");
 
 /***/ }),
 
@@ -1187,12 +1198,13 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
 /******/ 			"css/app": 0,
-/******/ 			"css/page": 0,
+/******/ 			"css/front_width_max480": 0,
 /******/ 			"css/front": 0,
 /******/ 			"css/profile": 0,
 /******/ 			"css/admin": 0,
-/******/ 			"css/front_cycletv": 0,
-/******/ 			"css/toppage": 0
+/******/ 			"css/toppage_width_max480": 0,
+/******/ 			"css/toppage": 0,
+/******/ 			"css/page": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -1242,14 +1254,15 @@ eval("// shim for using process in browser\nvar process = module.exports = {};\n
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/admin.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/profile.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/front.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/page.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/toppage.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/page","css/front","css/profile","css/admin","css/front_cycletv","css/toppage"], () => (__webpack_require__("./resources/sass/front_cycletv.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/admin.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/profile.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/front.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/front_width_max480.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/page.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/toppage.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/front_width_max480","css/front","css/profile","css/admin","css/toppage_width_max480","css/toppage","css/page"], () => (__webpack_require__("./resources/sass/toppage_width_max480.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

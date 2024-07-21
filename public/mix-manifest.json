@@ -1,10 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/page.css": "/css/page.css",
+    "/css/front_width_max480.css": "/css/front_width_max480.css",
     "/css/front.css": "/css/front.css",
     "/css/profile.css": "/css/profile.css",
     "/css/admin.css": "/css/admin.css",
-    "/css/front_cycletv.css": "/css/front_cycletv.css",
-    "/css/toppage.css": "/css/toppage.css"
+    "/css/toppage_width_max480.css": "/css/toppage_width_max480.css",
+    "/css/toppage.css": "/css/toppage.css",
+    "/css/page.css": "/css/page.css"
 }

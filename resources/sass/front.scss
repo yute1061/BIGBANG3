@@ -1,209 +1,135 @@
 .body {
-  font-family:'Meiryo UI','メイリオ','ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Verdana,sans-serif;
+    font-family:'Meiryo UI','メイリオ','ＭＳ Ｐゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Verdana,sans-serif;
 }
 
 .img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .a {
-  text-decoration-line: none;
+    text-decoration-line: none;
 }
 
 .p {
-  text-decoration-line: none;
+    text-decoration-line: none;
 }  
 
 .h1 {
-  margin-top: 0;
-  font-size: 3.0em;
+    margin-top: 0;
+    font-size: 3.0em;
 }
 
 .h2 {
-  display: block;
-  font-size: 1.8em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  unicode-bidi: isolate;
+    display: block;
+    font-size: 1.8em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
-@media screen and (min-width: 768px) {
-  .area {
+.area {
     width: 1300px;
     margin: 0 auto;
-  }
+}
 
-  .header {
+.header {
   　position: fixed; /* ヘッダーを固定する */
   　height: 200px;
     max-width: 1200px;
     top: 0; /* 上部から配置の基準位置を決める */
     margin: 0 auto;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  .area {
-    width: 375px;
-    margin: 0 auto;
-  }
-
-  .header {
-  　position: fixed; /* ヘッダーを固定する */
-  　height: 50px;
-    max-width: 360px;
-    top: 0; /* 上部から配置の基準位置を決める */
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team_name {
+.team_name {
     width: 60%;
-  }
+}
 
-  .syarin1 {
+.syarin1 {
     margin-left: 130px; 
     width: 80px; 
     margin-top: 100px;
-  }
-    
-  .syarin2 {
+}
+
+.syarin2 {
     width: 110px; 
     margin-top: 70px;
-  }
-  
-  .syarin3 {
+}
+
+.syarin3 {
     width: 140px; 
     margin-top: 40px;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  .team_name {
-    width: 95%;
-  }
-  .syarin1 {
-    display:none;
-  } 
-  .syarin2 {
-    display:none;
-  }
-  .syarin3 {
-    display:none;
-  }
+.h-nav {
+    width: 100%;
+    clear: both;
 }
 
-@media screen and (min-width: 768px) {
-    .h-nav {
-      width: 100%;
-      clear: both;
-    }
-
-    .b {
-      display: flex;
-      letter-spacing: -.4em;
-      font-size: 18px;
-      margin-bottom: 0;
-      list-style: none;
-      padding: 0;
-      justify-content: space-evenly; /*余白を均等にする*/
-      background-color: #000000;
-    }
-    
-    .b li {
-      letter-spacing: normal;
-      display: inline-block;
-      width: calc(100%/6);
-    }
-    
-    .b li a {
-      display: block;
-      text-decoration: none;
-      position: relative;
-      text-align: center;
-      padding: 12px 0px;
-      text-transform: none;
-      color: #ffffff;
-    }
+.h-nav_width_max480 {
+    display: none;   
 }
 
-@media screen and (max-width: 480px) {
-    .h-nav {
-      width: 95%;
-      clear: both;
-    }
-
-    .b {
-      display: flex;
-      letter-spacing: -.4em;
-      font-size: 6.5px;
-      margin-bottom: 0;
-      list-style: none;
-      padding: 0;
-      justify-content: space-evenly; /*余白を均等にする*/
-      background-color: #000000;
-    }
+.b {
+    display: flex;
+    letter-spacing: -.4em;
+    font-size: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly; /*余白を均等にする*/
+    background-color: #000000;
+}
     
-    .b li {
-      letter-spacing: normal;
-      display: inline-block;
-      width: calc(100%/6);
-    }
-    
-    .b li a {
-      display: block;
-      text-decoration: none;
-      position: relative;
-      text-align: center;
-      padding: 6px 0px;
-      text-transform: none;
-      color: #ffffff;
-    }
+.b li {
+    letter-spacing: normal;
+    display: inline-block;
+    width: calc(100%/6);
 }
 
-@media screen and (min-width: 768px) {
-    .c {
-      display: flex;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+.b li a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    padding: 12px 0px;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.c {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .c a {
-  color: #000000;
-  text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
-    .h-img {
-      max-height: 400px;
-      min-width: 864px;
-    }
+.h-img {
+    max-height: 400px;
+    min-width: 864px;
 }
 
-@media screen and (min-width: 768px) {
-    .footer {
-      height: 60px;
-      background: #4d4398;
-      color: #fff;
-      font-size: 13px;
-      clear: both;
-      margin-top: 30px;
-      margin-bottom: 0;
-    }
+.footer {
+    height: 60px;
+    background: #4d4398;
+    color: #fff;
+    font-size: 13px;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-    .footer_content {
-        width: 90%;
-        margin: 0 auto;
-        padding: 15px 0;
-    }
+.footer_content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
 }
 
 .footer_navi {
@@ -217,12 +143,10 @@ ul, ol {
     list-style-image: none;
 }
 
-@media screen and (min-width: 768px) {
-    .footer_navi ul li {
-        font-size: 13px;
-        display: inline-block;
-        padding: 0 5px;
-    }
+.footer_navi ul li {
+    font-size: 13px;
+    display: inline-block;
+    padding: 0 5px;
 }
 
 #footer a {
@@ -269,10 +193,8 @@ article {
     height: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    .entry-card-thumb {
-        width: 320px;
-    }
+.entry-card-thumb {
+    width: 320px;
 }
 
 .card-thumb img {
@@ -284,334 +206,172 @@ article {
     object-fit: cover;
 }
 
-@media screen and (min-width: 768px) {
-    .cat-label {
-        position: absolute;
-        top: .3em;
-        left: .3em;
-        border: 1px solid #eee;
-        font-size: 11px;
-        color: var(--cocoon-white-color);
-        background-color: rgba(51, 51, 51, .7);
-        padding: 1px 5px;
-        max-width: 70%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.cat-label {
+    position: absolute;
+    top: .3em;
+    left: .3em;
+    border: 1px solid #eee;
+    font-size: 11px;
+    color: var(--cocoon-white-color);
+    background-color: rgba(51, 51, 51, .7);
+    padding: 1px 5px;
+    max-width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 //---- side ----
 
-@media screen and (min-width: 768px) {
-    .side {
-      width: 24%;
-      margin: 0px auto;
-      padding: 10px;
-    }
+.side {
+    width: 24%;
+    margin: 0px auto;
+    padding: 10px;
+}
 
-    .widgettitle {     
-      position: relative;
-      font-size: 16px;
-      padding: 8px 15px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: #ffffff;
-      background-color: #4d4398;
-    }
+.widgettitle {     
+    position: relative;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #4d4398;
+}
 
-    .searchform {
-        background: #fff;
-        padding: 11px 10px 11px 10px;
-        font-size: 14px;
-        border: 1px solid #ccc;
-    }
+.searchform {
+    background: #fff;
+    padding: 11px 10px 11px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
 
-    .searchsubmit {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        width: 45px;
-        padding: 0;
-        border-left: none;
-        border-radius: 0 3px 3px 0;
-    }
+.searchsubmit {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    padding: 0;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+}
 
-    .meta {
-        padding: .5em 1em;
-        font-size: 14px;
-    }
+.meta {
+    padding: .5em 1em;
+    font-size: 14px;
+}
 
-    .team_sns {
-        text-align: center;
-    }
+.team_sns {
+    text-align: center;
+}
 
-    .team_sns img {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .profile {
-        text-align: center;
-    }
+.team_sns img {
+    width: 80px;
+    height: 80px;
+}
 
-    .img_profile img {
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-    }
+.profile {
+    text-align: center;
+}
 
-    .name {
-        font-weight: bold;
-        //line-height: 1.2;
-        //text-align: center;
-        font-size: 30px;
-        //margin-top: 60px;
-        //clear: both;
-        float: left;
-        margin-left: 70px;
-        margin-top: 6px;
-    }
-    
-    .profile_sns {
-        margin-right: 65px;
-        padding-top: 5px;
-    }
-    
-    .X_button img {
-        width: 60px;
-        height: 45px;
-    }
-    
-    .new_article_side {
-    	width: 100%;
-    	height: 100px;
-    	margin: 1em auto;
-        background: #f5f5f5; /* 背景色 */
-        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
-        //border: 2px dashed #a9a9a9; /* 線の色 */
-        position: relative; //子要素に position: absolute; を設定して希望の場所に配置する
-    }
+.img_profile img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
 
-    .new_article_thumbnail-side {
-    	width: 100px;
-    	height: 100px;
-    	float: left;
-    }
-    
-    .entry-card-content-side {
-        margin-left: 110px;
-        padding-bottom: 1.2em;
-    }
+.name {
+    font-weight: bold;
+    //line-height: 1.2;
+    //text-align: center;
+    font-size: 30px;
+    //margin-top: 60px;
+    //clear: both;
+    float: left;
+    margin-left: 70px;
+    margin-top: 6px;
+}
 
-    .entry-card-title-side {
-        margin: 0 0 5px 0;
-        line-height: 1.6;
-        font-weight: 700;
-        display: -webkit-box;
-        overflow: hidden;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-    }
+.profile_sns {
+    margin-right: 65px;
+    padding-top: 5px;
+    display: flex;
+}
 
-    .entry-card-meta-side {
-        bottom: 0;
-        position: absolute; //親要素に position: lerative; を設定して希望の場所に配置する
-        right: 0;
-        text-align: right;
-        line-height: 1;
-    }
+.X_button img {
+    width: 60px;
+    height: 45px;
+}
 
-    .entry-card-info-side {
-        padding: 2px;
-    }
-    
-    .post-date-side, .post-update, .post-author, .amp-back, .entry-category-side {
-        padding: 2px;
-        display: inline;
-    }
+.new_article_side {
+	width: 100%;
+	height: 100px;
+	margin: 1em auto;
+    background: #f5f5f5; /* 背景色 */
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    //border: 2px dashed #a9a9a9; /* 線の色 */
+    position: relative; //子要素に position: absolute; を設定して希望の場所に配置する
+}
 
-    .entry-date-side {
-        font-size: .7em;
-        margin-left: 3px;
-    }
+.new_article_thumbnail-side {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
 
-    .category {
-        height: 50px;
-        font-size: 20px;
-    }
+.entry-card-content-side {
+    margin-left: 110px;
+    padding-bottom: 1.2em;
+}
 
-    .category_count {
-        display: block;
-        float: right;
-        margin-right: 40px;
-    }
+.entry-card-title-side {
+    margin: 0 0 5px 0;
+    line-height: 1.6;
+    font-weight: 700;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.entry-card-meta-side {
+    bottom: 0;
+    position: absolute; //親要素に position: lerative; を設定して希望の場所に配置する
+    right: 0;
+    text-align: right;
+    line-height: 1;
+}
+
+.entry-card-info-side {
+    padding: 2px;
+}
+
+.post-date-side, .post-update, .post-author, .amp-back, .entry-category-side {
+    padding: 2px;
+    display: inline;
+}
+
+.entry-date-side {
+    font-size: .7em;
+    margin-left: 3px;
+}
+
+.category {
+    height: 50px;
+    font-size: 20px;
+}
+
+.category_count {
+    display: block;
+    float: right;
+    margin-right: 40px;
 }
 
 .timeline {
-  max-width: 40%;
-  border: 1px solid #333;
-  padding: 10px;
-}
-
-@media screen and (max-width: 480px) {
-    .side {
-      width: 100%;
-      margin: 0px auto;
-      padding: 10px;
-    }
-    
-    .side_team_logo {
-      display:none;
-    }
-    
-    .widgettitle {
-      width: 83%; 
-      position: relative;
-      font-size: 16px;
-      padding: 8px 15px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: #ffffff;
-      background-color: #4d4398;
-    }
-
-    .searchform {
-        width: 85%;
-        background: #fff;
-        padding: 11px 10px 11px 10px;
-        font-size: 14px;
-        border: 1px solid #ccc;
-    }
-
-    .searchsubmit {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        width: 45px;
-        padding: 0;
-        border-left: none;
-        border-radius: 0 3px 3px 0;
-    }
-    
-    .meta {
-        width: 85%;
-        padding: .5em 1em;
-        font-size: 15px;
-    }
-
-    .team_sns {
-        text-align: center;
-        margin-left: 30px;
-    }
-
-    .team_sns img {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .profile {
-        text-align: center;
-    }
-    
-    .img_profile {
-        margin-right: 30px;
-    }
-
-    .img_profile img {
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-    }
-
-    .name {
-        font-weight: bold;
-        //line-height: 1.2;
-        //text-align: center;
-        font-size: 30px;
-        //margin-top: 60px;
-        //clear: both;
-        float: left;
-        margin-left: 95px;
-        margin-top: 6px;
-    }
-    
-    .profile_sns {
-        margin-right: 120px;
-        padding-top: 5px;
-    }
-    
-    .X_button img {
-        width: 60px;
-        height: 45px;
-    }
-    
-    .new_article_side {
-    	width: 90%;
-    	height: 100px;
-        margin: 1em 0px;
-        background: #f5f5f5; /* 背景色 */
-        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
-        //border: 2px dashed #a9a9a9; /* 線の色 */
-        position: relative; //子要素に position: absolute; を設定して希望の場所に配置する
-    }
-
-    .new_article_thumbnail-side {
-    	width: 100px;
-    	height: 100px;
-    	float: left;
-    }
-    
-    .entry-card-content-side {
-        margin-left: 110px;
-        padding-bottom: 1.2em;
-    }
-
-    .entry-card-title-side {
-        margin: 0 0 5px 0;
-        line-height: 1.6;
-        font-size: 20px;
-        font-weight: 700;
-        display: -webkit-box;
-        overflow: hidden;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-    }
-
-    .entry-card-meta-side {
-        bottom: 0;
-        position: absolute; //親要素に position: lerative; を設定して希望の場所に配置する
-        right: 0;
-        text-align: right;
-        line-height: 1;
-    }
-
-    .entry-card-info-side {
-        padding: 2px;
-    }
-    
-    .post-date-side, .post-update, .post-author, .amp-back, .entry-category-side {
-        padding: 2px;
-        display: inline;
-    }
-
-    .entry-date-side {
-        font-size: .7em;
-        margin-left: 3px;
-    }
-
-    .category {
-        height: 50px;
-        font-size: 20px;
-    }
-
-    .category_count {
-        display: block;
-        float: right;
-        margin-right: 60px;
-    }
+    max-width: 40%;
+    border: 1px solid #333;
+    padding: 10px;
 }
 
 //----
