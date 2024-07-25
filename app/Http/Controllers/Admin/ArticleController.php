@@ -184,7 +184,7 @@ class ArticleController extends Controller
             $path = $request->file('thumbnail')->store('public/image');
             $article_form['thumbnail_path'] = basename($path);
         } else {
-            $article_form['thumbnail_path'] = $article->image_path1;
+            $article_form['thumbnail_path'] = $article->thumbnail_path;
         } 
         
         if ($request->remove1 == 'true') {
