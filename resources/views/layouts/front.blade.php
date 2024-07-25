@@ -99,7 +99,7 @@
                     <div class="widgettitle">サイト管理者</div>
                     <div class="profile">
                         <div class="img_profile">
-                            <img src="{{ secure_asset('images/profile.jpg/') }}">
+                            <img src="{{ secure_asset('images/S__70172675.jpg/') }}">
                         </div>
                         <div>
                             <div class="name">テズカ</div>
