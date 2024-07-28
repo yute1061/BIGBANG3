@@ -24,7 +24,9 @@
         {{-- 固有のCSSを読み込みます --}}
         <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/front.css') }}" rel="stylesheet">
-        <link href="{{ secure_asset('css/side.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/front_width_max480.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/toppage.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/toppage_width_max480.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/page.css') }}" rel="stylesheet">
         
     </head>

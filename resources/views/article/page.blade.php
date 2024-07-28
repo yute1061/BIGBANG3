@@ -21,7 +21,7 @@
         <br>
         @endif
 	    @if ($article->image_path1)
-	        <img src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img_page">
+	        <img style="margin-top: 10px;" src="{{ secure_asset('storage/image/' . $article->image_path1) }}" class="img_page">
         <br>
         @endif
         @if ($article->body2)

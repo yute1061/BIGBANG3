@@ -161,7 +161,7 @@
                     @csrf
                     <input type="hidden" name="user_id" value="{{ $user->id }}">
                     <input type="hidden" name="user_name" value="{{ $user->name }}">
-                    <input type="submit" class="btn btn-primary" value="プレビュー">
+                    <input style="margin-bottom: 10px;" type="submit" class="btn btn-primary" value="プレビュー">
                 </form>
             </div>
         </div>
