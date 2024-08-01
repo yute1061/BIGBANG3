@@ -1,3 +1,16 @@
+.article_pankuzu {
+  float: left;
+}
+
+.writer {
+  text-align: right;
+}
+
+.writer_img {
+  width: 10%;
+  border-radius: 50%;
+}
+
 .article_title {
   font-size: 3em;
 }

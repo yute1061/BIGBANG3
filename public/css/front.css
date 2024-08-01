@@ -82,7 +82,7 @@
   list-style: none;
   padding: 0;
   justify-content: space-evenly; /*余白を均等にする*/
-  background-color: #000000;
+  background: #4d4398;
 }
 
 .b li {
@@ -123,8 +123,8 @@
   color: #fff;
   font-size: 13px;
   clear: both;
-  margin-top: 30px;
-  margin-bottom: 0;
+  max-width: 1200px;
+  margin: 30px auto 0px auto;
 }
 
 .footer_content {

@@ -9,6 +9,14 @@
         <a> > </a>
         <a>{{ $article->title }}</a>
     </div>
+    <div class="writer">
+        <div>
+            <span>この記事を書いた人</span>
+        </div>
+        <div>
+            <span style="font-weight: 900; font-size: larger;">{{ $user->name }}</span><img class="writer_img" src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
+        </div>
+    </div>
     <div style="margin-top: 10px;">
         <h1 class="article_title">{{ $article->title }}</h1>
     </div>

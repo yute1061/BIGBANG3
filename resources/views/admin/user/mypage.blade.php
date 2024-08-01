@@ -26,7 +26,7 @@
                         <label for="profile_image_path" class="col-md-4 col-form-label text-md-end">{{ __('プロフィール画像')}}</label>
                         <div class="col-md-6">
                             @if ($user->profile_image)
-                	            <img src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
+                	            <img style="width: 100%;" src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
             	            @endif
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                         <label for="mybike_image_path" class="col-md-4 col-form-label text-md-end">{{ __('愛車画像')}}</label>
                         <div class="col-md-6">
                             @if ($user->mybike_image)
-                	            <img src="{{ secure_asset('storage/image/' . $user->mybike_image) }}">
+                	            <img style="width: 100%;" src="{{ secure_asset('storage/image/' . $user->mybike_image) }}">
             	            @endif
                         </div>
                     </div>                      

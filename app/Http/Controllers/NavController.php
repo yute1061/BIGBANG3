@@ -185,18 +185,14 @@ class NavController extends Controller
     }
     
     public function article_page(Request $request)
-    {         
-        $user_id = Auth::id();
-        if (empty($user_id)) {
-            $user = null; //ログアウト時はnullを渡す
-        } else {
-            $user = User::find($user_id);
-        }
+    {   
         $id = $request->id;
         $article = Article::find($id);
         $all = Article::all()->sortByDesc('id');
+        
+        $article_user = User::find($article->user_id);
 
-        return view('article.page', ['article' => $article, 'user' => $user, 'all' => $all]);
+        return view('article.page', ['article' => $article, 'user' => $article_user, 'all' => $all]);
     }
     
     public function about(Request $request)
