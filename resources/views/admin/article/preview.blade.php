@@ -17,7 +17,7 @@
                         <a> > </a>
                         <a>{{ $article->title }}</a>
                     </div>
-                    <div class="article_wrap">
+                    <div style="clear: both;" class="article_wrap">
                         <h1 class="article_title">{{ $article->title }}</h1>
                         <div class="article_thumbnail">
                             @if ($article->thumbnail_path)
