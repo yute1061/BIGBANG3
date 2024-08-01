@@ -67,7 +67,7 @@
                 @yield('main')
                 <aside class="side">
                     <div class="side_team_logo">
-                        <img width="100%" src="{{ secure_asset('images/Screen_BIGBANG_2700×2700-min.png/') }}">
+                        <img width="100%" src="{{ secure_asset('images/Screen_BIGBANG_karui.jpg/') }}">
                     </div>
                     <div class="widgettitle">記事検索</div>
                     <form action="{{ route('toppage') }}" method="get" class="searchform" role="search">
@@ -253,7 +253,7 @@
                         </ul>
                     </nav>
                     --}}
-      			    <div id="copyright">2014-2024 TEAM BIGBANG</div>
+      			    <div id="copyright">©2014-2024 TEAM BIGBANG</div>
       			</div>
       		</footer>
         </div>
