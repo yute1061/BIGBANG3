@@ -1,11 +1,11 @@
-.article_pankuzu {
-  float: left;
+@media screen and (min-width: 480px) {
+  .article_pankuzu {
+    float: left;
+  }
+  .writer {
+    text-align: right;
+  }
 }
-
-.writer {
-  text-align: right;
-}
-
 .writer_img {
   width: 10%;
   border-radius: 50%;

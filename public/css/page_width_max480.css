@@ -1,4 +1,7 @@
 @media screen and (max-width: 480px) {
+  .writer {
+    margin-top: 20px;
+  }
   .writer_img {
     width: 20%;
     border-radius: 50%;
