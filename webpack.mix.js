@@ -18,6 +18,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/front.scss', 'public/css') 
     .sass('resources/sass/front_width_max480.scss', 'public/css')
     .sass('resources/sass/page.scss', 'public/css') 
+    .sass('resources/sass/page_width_max480.scss', 'public/css') 
     .sass('resources/sass/toppage.scss', 'public/css') 
     .sass('resources/sass/toppage_width_max480.scss', 'public/css') 
     .sourceMaps();

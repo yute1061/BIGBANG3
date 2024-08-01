@@ -28,6 +28,7 @@
         <link href="{{ secure_asset('css/toppage.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/toppage_width_max480.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/page.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/page_width_max480.css') }}" rel="stylesheet">
     </head>
     <body>
         <div class="area">
