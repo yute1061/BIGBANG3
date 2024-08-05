@@ -127,7 +127,7 @@
                         @endif
                         @if ($article->body10)
                             <?php
-                                $text2 = nl2br( $article->body10 );
+                                $text10 = nl2br( $article->body10 );
                                 echo $text10;
                             ?>
                         <br>

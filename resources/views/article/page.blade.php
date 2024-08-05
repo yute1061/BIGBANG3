@@ -24,6 +24,9 @@
         @if ($article->body1)
             <?php
                 $text1 = nl2br( $article->body1 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text1   = preg_replace( $pattern, $replace, $text1 );
                 echo $text1;
             ?>
         <br>
@@ -35,6 +38,9 @@
         @if ($article->body2)
             <?php
                 $text2 = nl2br( $article->body2 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text2   = preg_replace( $pattern, $replace, $text2 );
                 echo $text2;
             ?>
         <br>
@@ -46,6 +52,9 @@
         @if ($article->body3)
 	        <?php
                 $text3 = nl2br( $article->body3 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text3   = preg_replace( $pattern, $replace, $text3 );
                 echo $text3;
             ?>
         <br>
@@ -57,6 +66,9 @@
         @if ($article->body4)
 	        <?php
                 $text4 = nl2br( $article->body4 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text4   = preg_replace( $pattern, $replace, $text4 );
                 echo $text4;
             ?>
         <br>
@@ -68,7 +80,10 @@
         @if ($article->body5)
 	        <?php
                 $text5 = nl2br( $article->body5 );
-                echo $text5;
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text5   = preg_replace( $pattern, $replace, $text5 );
+                echo $text5;	        
             ?>
         <br>
         @endif
@@ -79,6 +94,9 @@
         @if ($article->body6)
 	        <?php
                 $text6 = nl2br( $article->body6 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text6   = preg_replace( $pattern, $replace, $text6 );
                 echo $text6;
             ?>
         <br>
@@ -90,7 +108,10 @@
         @if ($article->body7)
             <?php
                 $text7 = nl2br( $article->body7 );
-                echo $text7;
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text7   = preg_replace( $pattern, $replace, $text7 );
+                echo $text7;            
             ?>
         <br>
         @endif
@@ -101,7 +122,10 @@
         @if ($article->body8)
 	        <?php
                 $text8 = nl2br( $article->body8 );
-                echo $text8;
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text8   = preg_replace( $pattern, $replace, $text8 );
+                echo $text8;	        
             ?>
         <br>
         @endif
@@ -112,7 +136,10 @@
         @if ($article->body9)
 	        <?php
                 $text9 = nl2br( $article->body9 );
-                echo $text9;
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text9   = preg_replace( $pattern, $replace, $text9 );
+                echo $text9;	        
             ?>
         @endif
         <br>
@@ -122,8 +149,11 @@
         @endif
         @if ($article->body10)
             <?php
-                $text2 = nl2br( $article->body10 );
-                echo $text10;
+                $text10 = nl2br( $article->body10 );
+                $pattern = '/((?:https?|ftp):\/\/[-_.!~*\'()a-zA-Z0-9;\/?:@&=+$,%#]+)/';
+                $replace = '<a href="$1">$1</a>';
+                $text10   = preg_replace( $pattern, $replace, $text10 );
+                echo $text10;            
             ?>
         <br>
         @endif
