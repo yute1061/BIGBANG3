@@ -14,7 +14,12 @@
             <span>この記事を書いた人</span>
         </div>
         <div>
-            <span style="font-weight: 900; font-size: larger;">{{ $user->name }}</span><img class="writer_img" src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
+            <span style="font-weight: 900; font-size: larger;">{{ $user->name }}</span>
+            @if ($user->profile_image != null)
+                <img class="writer_img" src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
+            @else
+                <img class="writer_img" src="{{ secure_asset('images/no_image.png/') }}">
+            @endif
         </div>
     </div>
     <div style="margin-top: 10px;">

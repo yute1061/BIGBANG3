@@ -25,8 +25,10 @@
                     <div class="row mb-3">
                         <label for="profile_image_path" class="col-md-4 col-form-label text-md-end">{{ __('プロフィール画像')}}</label>
                         <div class="col-md-6">
-                            @if ($user->profile_image)
+                            @if ($user->profile_image != null)
                 	            <img style="width: 100%;" src="{{ secure_asset('storage/image/' . $user->profile_image) }}">
+                	        @else
+                	            <img style="width: 100%;" src="{{ secure_asset('images/no_image.png/') }}">
             	            @endif
                         </div>
                     </div>
@@ -39,8 +41,10 @@
                     <div class="row mb-3">
                         <label for="mybike_image_path" class="col-md-4 col-form-label text-md-end">{{ __('愛車画像')}}</label>
                         <div class="col-md-6">
-                            @if ($user->mybike_image)
+                            @if ($user->mybike_image != null)
                 	            <img style="width: 100%;" src="{{ secure_asset('storage/image/' . $user->mybike_image) }}">
+                	        @else
+                	            <img style="width: 100%;" src="{{ secure_asset('images/no_image.png/') }}">
             	            @endif
                         </div>
                     </div>                      
