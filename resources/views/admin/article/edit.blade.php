@@ -32,8 +32,16 @@
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="title">タグ</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control" name="tag" value="{{ $article_form->tag }}">
+                        <div class="col-md-3">
+                            {{--<input type="text" class="form-control" name="tag" value="{{ $article_form->tag }}">--}}
+                            <select class="form-control" name="tag">
+                    	        <option value = "レースレポ">レースレポ</option>
+                                <option value = "練習会">練習会</option>
+                                <option value = "機材レビュー">機材レビュー</option>
+                                <option value = "用品レビュー">用品レビュー</option>
+                                <option value = "ブルベ">ブルベ</option>
+                                <option value = "その他">その他</option>
+                            </select>
                         </div>
                     </div>
                     <div class="form-group row">
