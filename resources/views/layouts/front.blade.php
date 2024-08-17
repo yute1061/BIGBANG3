@@ -155,7 +155,7 @@
                     <div class="widgettitle">カテゴリー</div>
                     <ul style="margin-left: 15px;">
                         <li class="category">
-                            <a href="{{ route('toppage', ['tag' => $post->tag, 'mode' => 2]) }}">
+                            <a href="{{ route('toppage', ['tag' => "レースレポ", 'mode' => 2]) }}">
                                 <span class="category_name">レースレポ</span>
                                 <?php $category_count_side_1=0; ?>
                                 @foreach ($all as $post)
@@ -167,7 +167,7 @@
                             </a>
                         </li>
                         <li class="category">
-                            <a href="#">
+                            <a href="{{ route('toppage', ['tag' => "練習会", 'mode' => 2]) }}">
                                 <span class="category">練習会</span>
                                 <?php $category_count_side_2 = 0; ?>
                                 @foreach ($all as $post)
@@ -179,7 +179,7 @@
                             </a>
                         </li>
                         <li class="category">
-                            <a href="#">
+                            <a href="{{ route('toppage', ['tag' => "機材レビュー", 'mode' => 2]) }}">
                                 <span class="category">機材レビュー</span>
                                 <?php $category_count_side_3 = 0; ?>
                                 @foreach ($all as $post)
@@ -191,7 +191,7 @@
                             </a>
                         </li>
                         <li class="category">
-                            <a href="#">
+                            <a href="{{ route('toppage', ['tag' => "用品レビュー", 'mode' => 2]) }}">
                                 <span class="category">用品レビュー</span>
                                 <?php $category_count_side_4 = 0; ?>
                                 @foreach ($all as $post)
@@ -203,7 +203,7 @@
                             </a>
                         </li>
                         <li class="category">
-                            <a href="#">
+                            <a href="{{ route('toppage', ['tag' => "ブルベ", 'mode' => 2]) }}">
                                 <span class="category">ブルベ</span>
                                 <?php $category_count_side_5 = 0; ?>
                                 @foreach ($all as $post)
@@ -215,7 +215,7 @@
                             </a>
                         </li>
                         <li class="category">
-                            <a href="#">
+                            <a href="{{ route('toppage', ['tag' => "その他", 'mode' => 2]) }}">
                                 <span class="category">その他</span>
                                 <?php $category_count_side_etc = 0; ?>
                                 @foreach ($all as $post)
